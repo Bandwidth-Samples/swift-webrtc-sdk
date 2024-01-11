@@ -34,7 +34,7 @@ Before configuring the SDK, let's understand the essential variables:
 
 To use the BandwidthSDK effectively, you must initialize the connection by following these simple steps:
 
-1. **Configure AudioCodesUA**: Provide the connection data to establish the communication link.
+1. **Configure BandwidthUA**: Provide the connection data to establish the communication link.
 2. **Configure OAuth Authentication**: Set up the necessary authentication details to ensure secure access.
 
 ## Event Handling
