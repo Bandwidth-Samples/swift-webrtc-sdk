@@ -35,7 +35,7 @@ Before configuring the SDK, let's understand the essential variables:
 To use the BandwidthSDK effectively, you must initialize the connection by following these simple steps:
 
 1. **Configure BandwidthUA**: Provide the connection data to establish the communication link.
-2. **Configure OAuth Authentication**: Set up the necessary authentication details to ensure secure access.
+2. **Configure Account**: Set up the necessary account details.
 
 ## Event Handling
 
@@ -55,7 +55,7 @@ Now that your SDK is configured, you can initiate calls seamlessly. To make a ca
 
 ```swift
 func makeCall() {
-    session = bandwidthUA.makeCall(phoneNumber, domain: domain)
+    session = bandwidthUA.makeCall(phoneNumber, domain: domain,authToken: oAuthToken)
     if let session = session {
         session.addSessionEventListener(listener: self)
     }
