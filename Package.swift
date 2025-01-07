@@ -6,8 +6,8 @@ let package = Package(
     name: "BandwidthSDK",
     products: [
         .library(
-            name: "BandwidthSDK",
-            targets: ["BandwidthSDK"]
+            name: "BandwidthSDKTest",
+            targets: ["BandwidthSDKTest"]
         ),
         .library(
             name: "MVWebRTCFramework",
@@ -29,9 +29,9 @@ let package = Package(
     
     targets: [
         .binaryTarget(
-            name: "BandwidthSDK",
-            url: "https://c7n-662368064438-eu-central-1.s3.eu-central-1.amazonaws.com/BandwidthSDK.xcframework.zip",
-            checksum: "711a3185fa43f2593f1b1d5368b034afa91d42e6f9a5222628825eb6301754eb"
+            name: "BandwidthSDKTest",
+            url: "https://c7n-662368064438-eu-central-1.s3.eu-central-1.amazonaws.com/BandwidthSDKTest.xcframework.zip",
+            checksum: "2cf69dcbc98efb2db084099c83baac0dae43f02237139c2e3c7fe055104fcad2"
         ),
         .binaryTarget(
             name: "MVWebRTCFramework",
