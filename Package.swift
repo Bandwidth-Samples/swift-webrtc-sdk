@@ -30,8 +30,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BandwidthSDK",
-            url: "https://in-app-calling-sdk.s3.eu-central-1.amazonaws.com/BandwidthSDK.xcframework.zip",
-            checksum: "deb10e4fd1dd6bb7ef67b0eca2d420b59839d8cae51dbb1ebd5a3e2f61e242e2"
+            url: "https://in-app-calling-sdk.s3.eu-central-1.amazonaws.com/BandwidthSDKV1.xcframework.zip",
+            checksum: "6577fe60e00da6dafa8c17e318836c6cbca83f04ebbe385716b9b433bc07821c"
         ),
         .binaryTarget(
             name: "MVWebRTCFramework",
