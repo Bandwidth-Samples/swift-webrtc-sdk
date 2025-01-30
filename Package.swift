@@ -35,17 +35,17 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MVWebRTCFramework",
-            url: "https://c7n-662368064438-eu-central-1.s3.eu-central-1.amazonaws.com/MVWebRTCFramework.xcframework.zip",
+            url: "https://in-app-calling-sdk.s3.eu-central-1.amazonaws.com/MVWebRTCFramework.xcframework.zip",
             checksum: "81ae62ce90a643c5c461539949fb4566099ac97e230187a120fa45fb54a88653"
         ),
         .binaryTarget(
             name: "MVWebRTCInterface",
-            url: "https://c7n-662368064438-eu-central-1.s3.eu-central-1.amazonaws.com/MVWebRTCInterface.xcframework.zip",
+            url: "https://in-app-calling-sdk.s3.eu-central-1.amazonaws.com/MVWebRTCInterface.xcframework.zip",
             checksum: "e7f43894d0c92f677a024b4cc8970970c5f4e17a50cc77357ad9ef8cdbea70bd"
         ),
         .binaryTarget(
             name: "MVWebRTCNativeCall",
-            url: "https://c7n-662368064438-eu-central-1.s3.eu-central-1.amazonaws.com/MVWebRTCNativeCall.xcframework.zip",
+            url: "https://in-app-calling-sdk.s3.eu-central-1.amazonaws.com/MVWebRTCNativeCall.xcframework.zip",
             checksum: "d3e6578db6aef151178781386400c4e64fa733ee3d43d11cd59410366d482893"
         ),
         .binaryTarget(
